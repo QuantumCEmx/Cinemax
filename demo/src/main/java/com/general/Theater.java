@@ -2,6 +2,9 @@ package com.general;
 
 import org.json.JSONObject;
 
+import com.input.Input;
+import com.model.Schema;
+
 public class Theater {
     
     private String theater_id = "";
@@ -15,6 +18,12 @@ public class Theater {
 
     }
 
+    public JSONObject getData(){
+        Schema sh = new Schema();
+        JSONObject data = new Input().getData(sh.theater);
+
+            return data;
+    }
     public JSONObject data(){
 
         JSONObject data = new JSONObject();
@@ -23,20 +32,6 @@ public class Theater {
 
         return data;
     }
-
-    public String getTheater_id() {
-        return theater_id;
-    }
-    public void setTheater_id(String theater_id) {
-        this.theater_id = theater_id;
-    }
-    public String getTheater_name() {
-        return theater_name;
-    }
-    public void setTheater_name(String theater_name) {
-        this.theater_name = theater_name;
-    }
-
 
     
 }

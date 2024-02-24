@@ -1,7 +1,14 @@
 package com.navigation;
 
+import com.storage.Database;
 import com.storage.File;
 import com.table.Table;
+
+import org.json.JSONObject;
+
+import com.general.Theater;
+import com.input.Input;
+
 
 public class Selection {
 
@@ -12,13 +19,16 @@ public class Selection {
 
         Nav selector = new Nav("Theater",new NavList().adminTheater,1,1);
         int choice = selector.getChoice();
+        File file = new File();
 
         while (choice > 0) {
             switch (choice) {
                 case 1:
                      new Table(file.theater);
                     break;
-            
+                case 2 :
+                    new Database().insert(new Theater().getData(), file.theater);
+                break;
                 default:
                     break;
             }
