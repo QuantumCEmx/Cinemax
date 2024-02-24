@@ -1,0 +1,399 @@
+<mxfile host="app.diagrams.net" modified="2024-02-04T21:14:40.590Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="lhYhJOAaLNv92ZRnCfw9" version="23.1.1" type="device">
+  <diagram name="Page-1" id="zKtQs_Xxu0HdF5v8F2sd">
+    <mxGraphModel dx="1750" dy="915" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ApXXhOOL50JrmPp_peIV-289" value="" style="whiteSpace=wrap;html=1;fillColor=none;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="1997" y="197.83" width="122" height="213" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-3" value="&lt;font style=&quot;font-size: 50px;&quot;&gt;Cinemax Project&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="37" y="62" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-23" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Requirement&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="37" y="148" width="189" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-24" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;A Cinematic Management&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="37" y="105" width="234" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-26" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;User&amp;nbsp;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="94.24666666666674" y="243.00001017252612" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-27" value="Booking Ticket" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="132" y="301" width="81.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-28" value="Member Subscription" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="277" width="118.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-29" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Role&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="37.002060546874986" y="213.0041295123922" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-30" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Admin&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="97.00666666666675" y="343.0000101725261" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-31" value="Manage Seat" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="144.25" y="373" width="81.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-32" value="Manage Theater" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="147" y="397" width="91" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-33" value="Manage Movie" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="147" y="422" width="83" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-34" value="Manage Round" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="147" y="447" width="87.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-45" value="&lt;font style=&quot;font-size: 50px;&quot;&gt;Cinemax Project&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="62" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-46" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;User Flow&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="860" y="148" width="189" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-47" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;A Cinematic Management&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="105" width="234" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApXXhOOL50JrmPp_peIV-49" target="ApXXhOOL50JrmPp_peIV-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-49" value="User" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="881" y="260" width="98" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ApXXhOOL50JrmPp_peIV-50" target="ApXXhOOL50JrmPp_peIV-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1312" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-50" value="member" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1109.31" y="260" width="74" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-52" value="&amp;nbsp;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1011.000706492457" y="254.99621531519395" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-53" value="Subscription" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1001.5" y="260" width="79" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApXXhOOL50JrmPp_peIV-67" target="ApXXhOOL50JrmPp_peIV-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-67" value="Movie" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1304" y="260" width="74" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-74" value="Select Movie" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1207" y="260" width="93" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ApXXhOOL50JrmPp_peIV-75" target="ApXXhOOL50JrmPp_peIV-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-75" value="Theater" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1304" y="378" width="74" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ApXXhOOL50JrmPp_peIV-77" target="ApXXhOOL50JrmPp_peIV-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-77" value="Round" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1304" y="500" width="74" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-79" value="Select Theater" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1224" y="334" width="93" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-246" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ApXXhOOL50JrmPp_peIV-80" target="ApXXhOOL50JrmPp_peIV-245">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-80" value="Seat" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1304" y="624" width="74" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-85" value="Select Seat" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="577" width="93" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-86" value="Select Round" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="452" width="93" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-87" value="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1355" y="331" width="26.17" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-88" value="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1355" y="452" width="26.17" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-89" value="n" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1351.83" y="575" width="26.17" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-183" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Subscription&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="82.30999999999995" y="1353.5" width="69" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-184" value="UserDetail" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="123.80999999999995" y="1392.5" width="98" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-185" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Receipt&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="83" y="1815.5" width="49" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ApXXhOOL50JrmPp_peIV-187" target="ApXXhOOL50JrmPp_peIV-189">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-187" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Movie&lt;/font&gt;" style="whiteSpace=wrap;html=1;horizontal=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="119.30999999999995" y="1857.5" width="32" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ApXXhOOL50JrmPp_peIV-189" target="ApXXhOOL50JrmPp_peIV-193">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-189" value="Theater" style="whiteSpace=wrap;html=1;horizontal=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="184.30999999999995" y="1857.5" width="37.5" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ApXXhOOL50JrmPp_peIV-193" target="ApXXhOOL50JrmPp_peIV-200">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ApXXhOOL50JrmPp_peIV-193" target="ApXXhOOL50JrmPp_peIV-208">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ApXXhOOL50JrmPp_peIV-193" target="ApXXhOOL50JrmPp_peIV-209">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-193" value="Round" style="whiteSpace=wrap;html=1;horizontal=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="254.30999999999995" y="1857.5" width="32" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-194" value="Harry Potter" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="144.25" y="1621.5" width="67" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-195" value="Theater 7" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="142.5" y="1645.5" width="56" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-196" value="20:00" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="226" y="1650.5" width="32.25" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-197" value="01/01/2024" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="226.74861793154741" y="1670.4985830543155" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-198" value="Seat No." style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="142.5" y="1696.5" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-199" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Ticket&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="63" y="1482.5" width="69" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-200" value="Seat" style="whiteSpace=wrap;html=1;horizontal=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="324.30999999999995" y="1857.5" width="32" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ApXXhOOL50JrmPp_peIV-202" target="ApXXhOOL50JrmPp_peIV-204">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-202" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Movie&lt;/font&gt;" style="whiteSpace=wrap;html=1;horizontal=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="142.80999999999995" y="1517.5" width="32" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ApXXhOOL50JrmPp_peIV-204" target="ApXXhOOL50JrmPp_peIV-206">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-204" value="Theater" style="whiteSpace=wrap;html=1;horizontal=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="207.80999999999995" y="1517.5" width="37.5" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-205" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ApXXhOOL50JrmPp_peIV-206" target="ApXXhOOL50JrmPp_peIV-207">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-206" value="Round" style="whiteSpace=wrap;html=1;horizontal=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="277.80999999999995" y="1517.5" width="32" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-207" value="Seat" style="whiteSpace=wrap;html=1;horizontal=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="343.80999999999995" y="1517.5" width="32" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-208" value="Seat" style="whiteSpace=wrap;html=1;horizontal=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="324.30999999999995" y="1826.5" width="32" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-209" value="Seat" style="whiteSpace=wrap;html=1;horizontal=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="324.30999999999995" y="1888.5" width="32" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-210" value="F10" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="223" y="1702.5" width="25.62" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-211" value="Cinemax" style="text;whiteSpace=wrap;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="141.75" y="1576.5" width="134.75" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-212" value="Date" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="142.5" y="1675.5" width="31.13" height="18.73" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-213" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="133.5" y="1734.5" as="sourcePoint" />
+            <mxPoint x="387.5" y="1734.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-214" value="Ticket No." style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="132" y="1738.5" width="83.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-215" value="63207452367" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="208.5" y="1738.5" width="107" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-216" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="301.5" y="1640.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-217" value="QR CODE" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="311.49620689655194" y="1666.4958620689656" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-218" value="Cinemax" style="text;whiteSpace=wrap;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="181.50000000000023" y="1925.5" width="134.75" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-219" value="Seat" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="122.50000000000023" y="2004.5" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-220" value="Normal x2" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="161.75000000000023" y="2025.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-221" value="Honeymoon x2" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="156.75000000000023" y="2051.5" width="94.87" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-222" value="500" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="294.8719512195123" y="2027.329268292683" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-223" value="600" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="294.8719512195123" y="2051.499268292683" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-224" value="Other" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="132.31999999999994" y="2088.5" width="40.18" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-225" value="Popcorn x2" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="162.31999999999994" y="2111.5" width="65.18" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-226" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="134.50000000000023" y="1999.5" as="sourcePoint" />
+            <mxPoint x="359.5000000000002" y="2000.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-227" value="Coke x4" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="161.75000000000023" y="2137.5" width="47.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-228" value="200" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="294.8699609375001" y="2113.49998046875" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-229" value="150" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="294.8699609375001" y="2141.49998046875" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-230" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="127.50000000000023" y="2174.5" as="sourcePoint" />
+            <mxPoint x="352.5000000000002" y="2175.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-231" value="Vat 7%" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="134.50000000000023" y="2180.5" width="47" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-232" value="Balance" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="132.3199609374999" y="2201.49998046875" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-233" value="1,551.5" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="292.5000000000002" y="2204.66" width="43.92" height="23.68" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-234" value="101.5" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="287.49998046874975" y="2180.50001953125" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-235" value="Receipt No. 19414385202559" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="153.4200000000003" y="1970.5" width="183" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-236" value="&lt;font style=&quot;font-size: 50px;&quot;&gt;Cinemax Project&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="59.92" y="1202" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-237" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;Design Interface&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="59.92" y="1288" width="265.08" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-238" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;A Cinematic Management&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="59.92" y="1245" width="234" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-242" value="Print Ticket" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1226.5" y="698" width="98.17" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-249" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ApXXhOOL50JrmPp_peIV-245" target="ApXXhOOL50JrmPp_peIV-248">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-245" value="Ticket" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1304" y="742" width="74" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-248" value="Receipt" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1304" y="864" width="74" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-250" value="Print Receipt" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1233" y="818" width="98.17" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-252" value="&lt;font style=&quot;font-size: 50px;&quot;&gt;Cinemax Project&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1753" y="62" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-253" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;Admin Flow&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1753" y="148" width="189" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-254" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;A Cinematic Management&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1753" y="105" width="234" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-283" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApXXhOOL50JrmPp_peIV-281" target="ApXXhOOL50JrmPp_peIV-282">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-281" value="Admin" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1759" y="285" width="69.12" height="38.65" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-290" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApXXhOOL50JrmPp_peIV-282" target="ApXXhOOL50JrmPp_peIV-289">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-282" value="CRUD" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1882" y="285" width="69.12" height="38.65" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-284" value="Movie" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2023.44" y="218" width="69.12" height="38.65" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-287" value="Round" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2023.44" y="344" width="69.12" height="38.65" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-288" value="Theater" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2023.44" y="283.35" width="69.12" height="38.65" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-295" value="&lt;font style=&quot;font-size: 50px;&quot;&gt;Cinemax Project&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="863" y="1207" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-296" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;Design Data&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="863" y="1293" width="226" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-297" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;A Cinematic Management&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="863" y="1250" width="234" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-300" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Movie 1&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1069" y="1401" width="120" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-315" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApXXhOOL50JrmPp_peIV-301" target="ApXXhOOL50JrmPp_peIV-312">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-316" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApXXhOOL50JrmPp_peIV-301" target="ApXXhOOL50JrmPp_peIV-300">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-317" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApXXhOOL50JrmPp_peIV-301" target="ApXXhOOL50JrmPp_peIV-309">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-301" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Theater&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="877.0018221507353" y="1480.9993830422793" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-309" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Movie 3&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1069" y="1567" width="120" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-323" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ApXXhOOL50JrmPp_peIV-312" target="ApXXhOOL50JrmPp_peIV-318">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-324" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApXXhOOL50JrmPp_peIV-312" target="ApXXhOOL50JrmPp_peIV-320">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-325" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApXXhOOL50JrmPp_peIV-312" target="ApXXhOOL50JrmPp_peIV-319">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-312" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Movie 2&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1069" y="1481" width="120" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-330" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ApXXhOOL50JrmPp_peIV-318" target="ApXXhOOL50JrmPp_peIV-328">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-318" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Round 20&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1292.0018221507353" y="1480.9993830422793" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-319" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Round 19&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1292.0018221507353" y="1401.9993830422793" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-320" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Round 21&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1292.0018221507353" y="1567.9993830422793" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApXXhOOL50JrmPp_peIV-328" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Seats&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1474.0018221507353" y="1481.4993830422793" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
