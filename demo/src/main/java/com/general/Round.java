@@ -1,25 +1,42 @@
 package com.general;
 
+import java.util.Map;
+
 import org.json.JSONObject;
+
+import com.input.Input;
 
 public class Round {
     
-    private String round_id;
+    private String id;
     private String start_time;
     private String theater_id;
     private String movie_id;
 
-    public Round(String round_id, String start_time, String theater_id, String movie_id) {
-        this.round_id = round_id;
+    public Map<String, String> schema = Map.of(
+        "id", "Auto",
+        "start_time", "String",
+        "theater_id", "String",
+        "movie_id", "String"
+    );
+
+    public Round(){}
+    
+    public Round(String id, String start_time, String theater_id, String movie_id) {
+        this.id = id;
         this.start_time = start_time;
         this.theater_id = theater_id;
         this.movie_id = movie_id;
     }
 
+    public JSONObject getData() {
+        JSONObject data = new Input().getData(this.schema);
+        return data;
+    }
 
      public JSONObject data() {
         JSONObject data = new JSONObject();
-        data.put("round_id", this.round_id);
+        data.put("id", this.id);
         data.put("start_time", this.start_time);
         data.put("theater_id", this.theater_id);
         data.put("movie_id", this.movie_id);

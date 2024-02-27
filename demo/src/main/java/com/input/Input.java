@@ -5,21 +5,18 @@ import java.util.Scanner;
 
 import org.json.JSONObject;
 
-import com.model.Schema;
 import com.storage.Database;
 import com.storage.File;
 
 public class Input {
 
-    public Input() {
-    }
+    public Input() {}
 
     public JSONObject getData(Map<String ,String> schemaName) {
 
-        Database db = new Database();
         JSONObject obj = new JSONObject();
-
         Scanner sc = new Scanner(System.in);
+        Database db = new Database();
 
         System.out.println("Enter |");
         try {
@@ -33,7 +30,7 @@ public class Input {
                 }
 
                 if (type.equalsIgnoreCase("Auto")) {
-                    obj.put(key, "Test-auto");
+                    obj.put(key, "auto");
                 }
             }
 
@@ -48,5 +45,14 @@ public class Input {
 
         return obj;
 
+    }
+
+    public String getId(){
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter ID > ");
+        String id = sc.nextLine();
+
+        return id;
     }
 }
