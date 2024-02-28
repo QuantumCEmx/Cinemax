@@ -16,6 +16,7 @@ public class Nav {
     private int startIndex = 0;
     private boolean clear = true;
     private int padding = 10;
+    private boolean emptyText = true;
 
     private Display display = new Display();
 
@@ -52,6 +53,7 @@ public class Nav {
         this.choice = choice;
         this.startIndex = startIndex;
 
+
         this.renderNavList();
 
         }
@@ -85,6 +87,8 @@ public class Nav {
 
     }
 
+
+
     public void renderNavList() {
 
         
@@ -105,7 +109,10 @@ public class Nav {
             }
 
         } else {
-            System.out.println("[-] No items to show.");
+            if(this.emptyText){
+
+                System.out.println("[-] No items to show.");
+            }
         }
     }
 
@@ -119,5 +126,9 @@ public class Nav {
      
         return this.choice;
     }
+
+    public void setEmptyText(boolean isShown){
+        this.emptyText = isShown;
+    } 
 
 }

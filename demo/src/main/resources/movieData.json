@@ -1,1 +1,20 @@
-[{"duration":"4","director":"4","id":"MO-2","movie_name":"4"},{"duration":"g","director":"g","movie_name":"g","id":"MO-2"},{"duration":"t","director":"t","id":"MO-3","movie_name":"t"}]
+[
+    {
+        "duration": "130",
+        "director": "JK Rolling",
+        "id": "MO-1",
+        "movie_name": "Harry Potter And The Philosopher's Stone"
+    },
+    {
+        "duration": "140",
+        "director": "JK Rolling",
+        "movie_name": "Harry Potter And The Chamber Of Secrets",
+        "id": "MO-2"
+    },
+    {
+        "duration": "150",
+        "director": "JK Rolling",
+        "id": "MO-3",
+        "movie_name": "Harry Potter And The Prisoner of Azkaban"
+    }
+]

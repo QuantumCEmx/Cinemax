@@ -43,10 +43,9 @@ public class App {
         /* Test */
 
         File file = new File();
-
         NavList navList = new NavList();
 
-        while (true) {
+     /*    while (true) {
             Nav adminMenu = new Nav("Cinemax Mannagement", navList.adminMain, 0, 1);
 
 
@@ -70,7 +69,26 @@ public class App {
                    System.exit(0);
                 break;
             }
+        } */
+
+             while (true) {
+            Nav adminMenu = new Nav("Cinemax Ticket", navList.clientMain, 0, 1);
+
+
+            switch (adminMenu.getChoice()) {
+                case 1:
+                    new Selection().movieList(file.movie);;
+                break;
+                case 2:
+                    new Selection(new Movie().schema,"Movie",file.movie, "MO");
+                break;
+                default:
+                   System.exit(0);
+                break;
+            }
         }
+
+        
 
     }
 }
