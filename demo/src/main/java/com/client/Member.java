@@ -10,7 +10,7 @@ import com.login.Validation;
 import com.storage.Database;
 import com.storage.FileData;
 
-public class Member {
+public class Member extends User{
     
 
     public JSONObject checkMember(){
