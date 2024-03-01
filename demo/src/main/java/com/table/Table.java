@@ -6,7 +6,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 import com.storage.Database;
-import com.storage.File;
+import com.storage.FileData;
 
 public class Table {
 

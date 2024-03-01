@@ -5,26 +5,20 @@
 
 
 ## User Section
-## User
-    {
-        "firstname" : "Siwakorn",
-        "lastname" : "Jansangsri",
-        "id" : "1909300007092",
-        "password" : "fafasfa2312koia",
-        "tel" :"0980746601",
-        "birthdate" : "2002-03-21",
-
-    }
 
 ## Member
 
     {   
-        "user_id" : "1909300007092",
-        "member_id" : 0,
+        "id" : "1909300007092",
+        "firstname" : "Siwakorn",
+        "lastname" : "Jansangsri",
+        "password" : "fafasfa2312koia",
+        "tel" :"0980746601",
+        "birthdate" : "2002-03-21",
+        
         "member_type" : 0,
         "expire_date" : "2024-12-31 00:00:00",
         "create_date" : "2024-01-31 00:00:00",
-
     }
 
 ## MemberType

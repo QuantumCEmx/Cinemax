@@ -1,6 +1,7 @@
 com\general\Round.class
 com\table\Table.class
 com\client\Receipt.class
+com\general\GenerateQRCode.class
 com\navigation\Selection.class
 com\App.class
 com\input\Input.class
@@ -15,3 +16,4 @@ com\navigation\NavList.class
 com\general\Seat.class
 com\navigation\Nav.class
 com\display\Display.class
+com\general\QRCodeGenerator.class

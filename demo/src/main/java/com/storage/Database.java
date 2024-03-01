@@ -41,7 +41,9 @@ public class Database {
 
             write(jsonArray, pathName);
 
-            System.out.println("Insert Data successfully to " + pathName);
+           // System.out.println("Insert Data successfully to " + pathName);
+             System.out.println("[/]");
+
         } catch (IOException | JSONException e) {
             e.printStackTrace();
         }
@@ -61,6 +63,35 @@ public class Database {
 
             newData.put("id", data.get("id"));
             dataList.put(index, newData);
+
+            try {
+                this.save(dataList, pathName);
+                return true;
+
+            } catch (Exception e) {
+                return false;
+            }
+        }else{
+            System.out.println("----------------------");
+            System.out.println("No item ID : "+ id);
+            System.out.println("----------------------");
+            return false;
+        }
+    }
+
+    public boolean updateMemberType(String pathName, String id, JSONObject data) {
+
+
+        if (data != null) {
+
+            int index = data.getInt("index");
+
+            JSONArray dataList = this.get(pathName);
+
+            dataList.getJSONObject(index);
+
+            data.put("id", data.get("id"));
+            dataList.put(index, data);
 
             try {
                 this.save(dataList, pathName);
@@ -100,7 +131,7 @@ public class Database {
         JSONArray array = this.get(pathName);
 
         int maxID = Integer.parseInt(array.getJSONObject(array.length() - 1).get("id").toString().split("-")[1]);
-        System.out.println(maxID);
+        // System.out.println(maxID);
         return maxID;
 
     }

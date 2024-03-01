@@ -2,13 +2,13 @@
     {
         "start_time": "20:30",
         "theater_id": "TH-1",
-        "id": "RO-2",
+        "id": "RO-1",
         "movie_id": "MO-1"
     },
     {
         "start_time": "19:30",
         "theater_id": "TH-2",
-        "id": "RO-3",
+        "id": "RO-2",
         "movie_id": "MO-2"
     }
 ]

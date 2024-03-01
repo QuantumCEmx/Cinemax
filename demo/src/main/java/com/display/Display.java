@@ -4,12 +4,13 @@ public class Display {
 
     public void setColor(String color){
 
-        System.err.printf("%s",color);
+        System.out.printf("\033[%s",color);
     }
+    
 
     public void setColor(Color color){
 
-        System.err.printf("%s",color);
+        System.out.printf("%s",color);
     }
 
     public void reset(){

@@ -20,6 +20,20 @@ public class Date {
             return formattedTime;
        }
 
+       public String getAdjustDate(int yearsToAdd, int monthsToAdd, int daysToAdd, int hoursToAdd, int minutesToAdd, int secondsToAdd) {
+        LocalDateTime currentTime = LocalDateTime.now();
+        currentTime = currentTime.plusYears(yearsToAdd)
+                .plusMonths(monthsToAdd)
+                .plusDays(daysToAdd)
+                .plusHours(hoursToAdd)
+                .plusMinutes(minutesToAdd)
+                .plusSeconds(secondsToAdd);
+        
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+        String formattedTime = currentTime.format(formatter);
+        return formattedTime;
+    }
+
        public void compareDateTime(String dateTimeString) {
           DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
   

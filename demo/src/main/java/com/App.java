@@ -20,7 +20,7 @@ import com.navigation.Nav;
 import com.navigation.NavList;
 import com.navigation.Selection;
 import com.storage.Database;
-import com.storage.File;
+import com.storage.FileData;
 import com.table.Table;
 import com.utilities.Date;
 
@@ -42,10 +42,10 @@ public class App {
 
         /* Test */
 
-        File file = new File();
+        FileData file = new FileData();
         NavList navList = new NavList();
 
-     /*    while (true) {
+      /*   while (true) {
             Nav adminMenu = new Nav("Cinemax Mannagement", navList.adminMain, 0, 1);
 
 
@@ -74,13 +74,15 @@ public class App {
              while (true) {
             Nav adminMenu = new Nav("Cinemax Ticket", navList.clientMain, 0, 1);
 
-
             switch (adminMenu.getChoice()) {
                 case 1:
                     new Selection().movieList(file.movie);;
                 break;
                 case 2:
-                    new Selection(new Movie().schema,"Movie",file.movie, "MO");
+                      new Selection().member();
+                break;
+                case 3:
+                    new Selection().memberType();
                 break;
                 default:
                    System.exit(0);

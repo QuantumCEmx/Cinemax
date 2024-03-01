@@ -6,7 +6,7 @@ import java.util.Scanner;
 import org.json.JSONObject;
 
 import com.storage.Database;
-import com.storage.File;
+import com.storage.FileData;
 
 public class Input {
 
@@ -54,5 +54,12 @@ public class Input {
         String id = sc.nextLine();
 
         return id;
+    }
+
+    public void breakPoint(){
+        System.out.println("Press any key to continue...");
+        Scanner scanner = new Scanner(System.in);
+        scanner.nextLine();
+        System.out.println("Continuing...");
     }
 }

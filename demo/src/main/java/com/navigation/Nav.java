@@ -66,6 +66,12 @@ public class Nav {
 
     }
 
+    public Nav(
+        String header , boolean instantShow) {
+
+    this.header = header;
+}
+
     public void printLine() {
         int headerLength = this.header.length() + this.padding;
 
@@ -129,6 +135,11 @@ public class Nav {
 
     public void setEmptyText(boolean isShown){
         this.emptyText = isShown;
+    } 
+
+    
+    public void setClear(boolean isClear){
+        this.clear = isClear;
     } 
 
 }
