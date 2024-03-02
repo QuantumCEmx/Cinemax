@@ -173,18 +173,25 @@ public class Validation {
         return false;
     }
 
-    public static boolean CheckOlyNum(Scanner Nums) {
+    public static boolean CheckOlyNum(Scanner sc) {
         // อ่านค่าจากที่กรอกว่าเป็นตัวเลขรึป่าว ถ้าใช้รีเทรินค่า True;
-        return Nums.hasNextInt();
+        
+        return sc.hasNextInt();
     }
 
     public static boolean getCheckChar(String Strs) {
         return Validation.CheckChar(Strs);
     }
+    
+    public static boolean getCheckInt(int c){
+        String strc = String.valueOf(c);
+        return Validation.CheckInt(strc);
+    }
 
     public static boolean getCheckCharAndMaxnum(String Cint, int maxnum) {
         return Validation.CheckCharAndMaxnum(Cint, maxnum);
     }
+
 
     public static boolean getCheckUserInputTel(String t) {
         return Validation.CheckUserInputTel(t);

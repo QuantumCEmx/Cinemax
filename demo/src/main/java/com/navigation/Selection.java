@@ -49,7 +49,7 @@ public class Selection {
         Nav selector = new Nav(header, new NavList().LCRUD, 1, 1);
         int choice = selector.getChoice();
         Input input = new Input();
-
+        
         while (choice > 0) {
             switch (choice) {
                 case 1:
@@ -79,7 +79,6 @@ public class Selection {
         Nav selector = new Nav("Theater", new NavList().LCRUD, 1, 1);
         int choice = selector.getChoice();
         FileData file = new FileData();
-
         Input input = new Input();
 
         while (choice > 0) {
@@ -270,10 +269,13 @@ public class Selection {
         Scanner sc = new Scanner(System.in);
         System.out.println("Select Movie");
         int choice = 0;
+        
         JSONObject selectedRound;
 
         while (true) {
-            if (choice - 1 >= 0 && choice - 1 < groupData.length()) {
+            
+            if (choice - 1 >= 0 && choice - 1 < groupData.length() ) {
+                
                 selectedRound = groupData.getJSONObject(choice - 1);
                 // System.out.println(groupData.getJSONObject(choice-1));
                 break;
