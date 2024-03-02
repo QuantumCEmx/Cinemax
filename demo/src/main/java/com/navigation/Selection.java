@@ -268,21 +268,39 @@ public class Selection {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Select Movie");
-        int choice = 0;
-        
+        int choice ;
+        // header.getChoices();
         JSONObject selectedRound;
-
-        while (true) {
-            
-            if (choice - 1 >= 0 && choice - 1 < groupData.length() ) {
+        
+        // while (true) {
+        //     if (choice - 1 >= 0 && choice - 1 < groupData.length() ) {
                 
-                selectedRound = groupData.getJSONObject(choice - 1);
-                // System.out.println(groupData.getJSONObject(choice-1));
-                break;
-            } else {
-                System.out.print(" > ");
-                choice = sc.nextInt();
+        //         selectedRound = groupData.getJSONObject(choice - 1);
+        //         // System.out.println(groupData.getJSONObject(choice-1));
+        //         break;
+        //     } else {
+        //         System.out.print(" > ");
+        //         choice = sc.nextInt();
 
+        //     }
+        // }
+        while (true) {
+            System.out.print(" > ");
+    
+            if (Validation.CheckOlyNum(sc)) {
+                choice = sc.nextInt();
+                if (choice - 1 >= 0 && choice - 1 < groupData.length() ) {
+                    selectedRound = groupData.getJSONObject(choice - 1);
+                    // System.out.println(groupData.getJSONObject(choice-1));
+                    break;
+                } else {
+                    System.out.println("Invalid input. Please enter a valid numeric choice.");
+                    // sc.nextLine(); 
+    
+                }
+            } else {
+                System.out.println("Invalid input. Please enter a valid numeric choice.");
+                sc.nextLine(); 
             }
         }
 

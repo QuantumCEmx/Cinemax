@@ -71,7 +71,7 @@ public class App {
             }
         } */
 
-             while (true) {
+              while (true) {
             Nav adminMenu = new Nav("Cinemax Ticket", navList.clientMain, 0, 1);
 
             switch (adminMenu.getChoice()) {
